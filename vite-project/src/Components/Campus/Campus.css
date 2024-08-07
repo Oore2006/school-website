@@ -10,3 +10,14 @@
     justify-content: space-between;
     margin-bottom: 40px;
 }
+/* media query */
+@media (mex-width: 800px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px;
+        
+    }
+}

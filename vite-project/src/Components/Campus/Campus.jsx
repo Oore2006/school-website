@@ -1,7 +1,7 @@
 import React from 'react';
 import './Campus.css';
 import books from '../../assets/books.jpg';
-import arrow from '../../assets/arrow.jpg';
+import arrow from '../../assets/arrow.png';
 
 
 const Campus = () =>{
@@ -18,4 +18,4 @@ const Campus = () =>{
         </div>
     )
 }
-export default Campus;
+export default Campus; 

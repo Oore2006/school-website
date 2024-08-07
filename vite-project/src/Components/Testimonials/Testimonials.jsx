@@ -1,7 +1,7 @@
-import React from 'react'
+import {React, useRef} from 'react'
 import './Testimonials.css'
 import arrow from '../../assets/arrow.png'
-import program from '../../assets/program.png'
+import program from '../../assets/program.jpg'
 
 const Testimonials = () =>{
 

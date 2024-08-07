@@ -9,7 +9,7 @@ const About = () => {
             <div className='about-left'>
                 <img src={books} alt="" className='about-img' />
                 {/* play_icon */}
-                {/* <img src= {books} alt="" /> */}
+                <img src= {books} alt="" className="play-icon" onClick ={() => {setPlayState(true)}}/>
             </div>
             <div className='about-right'>  
                 <h3>ABOUT SCHOOL</h3>
