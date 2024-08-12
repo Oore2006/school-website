@@ -1,28 +1,31 @@
-import React from 'react'
-import './Contact.css'
-import programs from '../../assets/program.jpg'
+import React from 'react';
+import './Contact.css';
+// import programs from '../../assets/program.jpg';
+import phone from '../../assets/phone.png';
+import mail from '../../assets/mail.png';
+import location from '../../assets/location.png';
 
 const Contact = () =>{
     return(
         <div className='contact'>
             <div className='contact-col'>
                 {/* Message Icon */}
-                <h3> Send Us a Message  <img src={programs} alt="" /> </h3>
+                <h3> Send Us a Message  <img src={mail} alt="" /> </h3>
                 <p>Feel free to reach out through contact form or find 
                     or Find our Contact information below, Your feedback, questions, and suggetions are important to us
                     as we strive to provide exceptional service to our university community.
                 </p>
                 <ul>
                     {/* mail icon */}
-                    <li> <img src={programs} alt="" /> Contact@greatstack.dev</li>
+                    <li> <img src={mail} alt="" /> Contact@greatstack.dev</li>
                     {/* phone icon */}
-                    <li>+234 704-133-7559</li>
-                    {/* locaation icon */}
-                    <li>77 Massachusetts Ave, Cambridge <br/> MA 02139, United States</li>
+                    <li> <img src={phone} alt="" /> +234 704-133-7559</li>
+                    {/* location icon */}
+                    <li> <img src={location} alt="" /> 77 Massachusetts Ave, Cambridge <br/> MA 02139, United States</li>
 
                 </ul>
             </div>
-            <div className='Contact-col'>
+            <div className='contact-col'>
                 <form action="">
                     <label> Your name</label>
                     <input type="text" name='name' placeholder='Enter Your name' required />

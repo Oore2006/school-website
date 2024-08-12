@@ -2,6 +2,8 @@ import {React, useRef} from 'react'
 import './Testimonials.css'
 import arrow from '../../assets/arrow.png'
 import program from '../../assets/program.jpg'
+import user from '../../assets/user-2.jpg'
+// import user_1 from '../../assets/user-1.jpg'
 
 const Testimonials = () =>{
 
@@ -25,7 +27,7 @@ const Testimonials = () =>{
                     <li>
                         <div className='slide'>
                             <div className='user-info'>
-                                <img src= {program} alt="" />
+                                <img src= {user} alt="" />
                                 <div>
                                     <h3>william Jackson</h3>
                                     <span>Edusity, USA</span>
@@ -42,7 +44,7 @@ const Testimonials = () =>{
                     <li>
                         <div className='slide'>
                             <div className='user-info'>
-                                <img src= {program} alt="" />
+                                <img src= {user} alt="" />
                                 <div>
                                     <h3>william Jackson</h3>
                                     <span>Edusity, USA</span>
