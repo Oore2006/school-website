@@ -28,7 +28,7 @@ nav ul li{
     background: #212EA0;
     transition: 0.5s;
 }
-menu-icon{
+.menu-icon{
     display: none;
 }
 
